@@ -1,0 +1,23 @@
+body {
+  background: linear-gradient(rgb(175, 239, 250), rgb(165, 90, 250));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: larger;
+  font-weight: 300;
+  color: rgb(11, 11, 35);
+}
+p {
+  font-weight: bold;
+  color: rgb(11, 11, 35);
+}
+button {
+  background-color: rgb(252, 206, 214);
+  border-radius: 8px;
+  width: 75px;
+}
+#f {
+  color: red;
+}
+#v {
+  color: green;
+}
