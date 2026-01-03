@@ -1,23 +1,107 @@
 body {
-  background: linear-gradient(rgb(175, 239, 250), rgb(165, 90, 250));
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  font-size: larger;
-  font-weight: 300;
-  color: rgb(11, 11, 35);
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  margin: 0;
+  padding: 30px;
 }
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
 p {
   font-weight: bold;
-  color: rgb(11, 11, 35);
 }
+
+label {
+  display: block;
+  margin-left: 15px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 60%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
 button {
-  background-color: rgb(252, 206, 214);
-  border-radius: 8px;
-  width: 75px;
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 10px 5px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
 }
-#f {
-  color: red;
+
+button:hover {
+  background: #764ba2;
 }
-#v {
-  color: green;
+
+.buttons {
+  margin-top: 15px;
+}
+.time-input {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.time-input label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.input-group span {
+  font-weight: normal;
+}
+
+.result {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #e8f4f8;
+  border-radius: 5px;
+  border-left: 4px solid #0066cc;
+}
+.result label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+button.somme {
+  background-color: #4caf50;
+  color: white;
+}
+button.somme:hover {
+  background-color: #45a049;
+}
+button.effacer {
+  background-color: #f44336;
+  color: white;
+}
+button.effacer:hover {
+  background-color: #da190b;
 }
